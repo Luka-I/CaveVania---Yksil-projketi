@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - enemies
+  - Water
+  - UI
+  - player
+  - Platforms
+  - Platform Support
+  - Ground
+  - Background 1
+  - Background 2
+  - Background 3
+  - Colliders
+  - Items
+  - StageCollider
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background 3
+    uniqueID: 2695949697
+    locked: 0
+  - name: Background 2
+    uniqueID: 2356248645
+    locked: 0
+  - name: Background 1
+    uniqueID: 191208133
+    locked: 0
+  - name: Player
+    uniqueID: 598353473
+    locked: 0
+  - name: Enemies
+    uniqueID: 540973819
+    locked: 0
+  - name: Items
+    uniqueID: 2078024251
+    locked: 0
+  - name: Platform Support
+    uniqueID: 3373140283
+    locked: 0
+  - name: Ground
+    uniqueID: 601854133
+    locked: 0
+  - name: Platforms
+    uniqueID: 700283201
+    locked: 0
