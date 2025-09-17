@@ -11,9 +11,9 @@ public class BatSpawn : MonoBehaviour
 
     private void Start()
     {
-        batScript = Bat.GetComponent<BatFly>();
+        //batScript = Bat.GetComponent<BatFly>();
 
-        Bat.SetActive(false);
+        //Bat.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -24,9 +24,11 @@ public class BatSpawn : MonoBehaviour
     }
     void SpawnBat()
     {
-        Bat.transform.position = spawnPoint.position;
+        //Bat.transform.position = spawnPoint.position;
+        GameObject batIinstance = Instantiate(Bat, spawnPoint.position, Quaternion.identity);
 
-        batScript.ActivateBat();
+        batIinstance.GetComponent<BatFly>().ActivateBat();
+        //batScript.ActivateBat();
         hasSpawnedBat = true;
     }
 }

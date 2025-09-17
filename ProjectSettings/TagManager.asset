@@ -21,9 +21,9 @@ TagManager:
   - Colliders
   - Items
   - StageCollider
-  - 
-  - 
-  - 
+  - Inner Ground
+  - Wall
+  - Ceiling
   - 
   - 
   - 
@@ -42,29 +42,38 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background 3
-    uniqueID: 2695949697
+    uniqueID: 1697286327
     locked: 0
   - name: Background 2
-    uniqueID: 2356248645
+    uniqueID: 866587111
     locked: 0
   - name: Background 1
-    uniqueID: 191208133
+    uniqueID: 3816538529
     locked: 0
   - name: Player
-    uniqueID: 598353473
+    uniqueID: 1219699689
     locked: 0
   - name: Enemies
-    uniqueID: 540973819
+    uniqueID: 4155101721
     locked: 0
   - name: Items
-    uniqueID: 2078024251
+    uniqueID: 4054755801
+    locked: 0
+  - name: Inner Ground
+    uniqueID: 3465358323
     locked: 0
   - name: Platform Support
-    uniqueID: 3373140283
+    uniqueID: 904097281
     locked: 0
   - name: Ground
-    uniqueID: 601854133
+    uniqueID: 435565667
+    locked: 0
+  - name: Wall
+    uniqueID: 1600359825
+    locked: 0
+  - name: Ceiling
+    uniqueID: 720417251
     locked: 0
   - name: Platforms
-    uniqueID: 700283201
+    uniqueID: 340681217
     locked: 0

@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 113.14, y: 49.75, z: 0}
-  m_LocalScale: {x: 18, y: 18, z: 12}
+  m_LocalScale: {x: 7, y: 7, z: 12}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8839287525042725404}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 540973819
+  m_SortingLayerID: -139865575
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ad4ceba24f69e7742967800d0dac219c, type: 3}
@@ -196,15 +196,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a44423230fb16240ba739613d6a6f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCoolDown: 2
-  chaseRange: 15
-  attackRange: 5
   speed: 5
   damage: 30
-  boxCollider: {fileID: 6524792126021774738}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 64
+  chaseRange: 7
+  attackRange: 2.3
+  attackCooldown: 2
+  recoveryTime: 0.5
   hitbox: {fileID: 6623322545981202746}
 --- !u!114 &2204739817010284242
 MonoBehaviour:
@@ -220,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAnimator: {fileID: 6891331353368997113}
   maxHealth: 80
+  invincibilityDuration: 0.2
   hasDeathAnimation: 1
 --- !u!58 &1134622109303282232
 CircleCollider2D:
@@ -266,6 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8839287525042725404}
   - component: {fileID: 7527677395519324400}
+  - component: {fileID: 5490889390270726148}
   m_Layer: 3
   m_Name: hitbox
   m_TagString: Untagged
@@ -350,3 +349,17 @@ PolygonCollider2D:
       - {x: 0.3099114, y: 0.06512688}
       - {x: -0.041348457, y: 0.12136242}
   m_UseDelaunayMesh: 0
+--- !u!114 &5490889390270726148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6623322545981202746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebbcb9875357c214d89a2d60484ac0c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  enemy: {fileID: 3062882771706449617}

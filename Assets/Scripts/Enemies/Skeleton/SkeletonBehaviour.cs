@@ -5,105 +5,126 @@ using static UnityEngine.Rendering.DebugUI;
 
 public class SkeletonBehaviour : MonoBehaviour
 {
-    [SerializeField] private float attackCoolDown;
-    [SerializeField] private float chaseRange;
-    [SerializeField] private float attackRange;
-    [SerializeField] private float speed;
-    [SerializeField] private int damage;
-    [SerializeField] private BoxCollider2D boxCollider;
-    [SerializeField] private LayerMask playerLayer;
-    [SerializeField] private GameObject hitbox;
+    public float speed = 2f;
+    public int damage = 1;
+
+    public float chaseRange = 5f;
+    public float attackRange = 1.5f;
+    public float attackCooldown = 2f;
+    public float recoveryTime = 0.5f;
+
+    public GameObject hitbox;
+    private Animator anim;
+    private Transform player;
+    private PlayerHealth playerHealth;
 
     private float cooldownTimer = Mathf.Infinity;
-    private Animator anim;
-    private PlayerHealth playerHealth;
-    private Transform player;
-    private bool isChasing;
-    private bool isAttacking = false;
+    private float recoveryTimer = 0f;
+
+    private enum SkeletonState { Idle, Chasing, Attacking, Recovering }
+    private SkeletonState currentState = SkeletonState.Idle;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         playerHealth = player.GetComponent<PlayerHealth>();
-        hitbox.gameObject.SetActive(false);
+        hitbox.SetActive(false);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, chaseRange);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 
     private void Update()
     {
+        float distance = Vector2.Distance(transform.position, player.position);
         cooldownTimer += Time.deltaTime;
 
-        if (isAttacking)
+        switch (currentState)
         {
-            // Stop the chase if attacking
-            anim.SetBool("isMoving", false);
-            return;
-        }
+            case SkeletonState.Idle:
+                anim.SetBool("isMoving", false);
+                if (distance <= chaseRange)
+                    currentState = SkeletonState.Chasing;
+                break;
 
-        // Check if the player is within chase range
-        if (PlayerInChaseRange())
-        {
-            isChasing = true;
-            ChasePlayer();
+            case SkeletonState.Chasing:
+                if (distance > chaseRange)
+                {
+                    currentState = SkeletonState.Idle;
+                    break;
+                }
+
+                if (distance <= attackRange)
+                {
+                    if (cooldownTimer >= attackCooldown)
+                    {
+                        currentState = SkeletonState.Attacking;
+                        StartAttack();
+                    }
+                    break;
+                }
+
+                MoveTowardPlayer();
+                break;
+
+            case SkeletonState.Attacking:
+                // Wait for OnAttackAnimationEnd to handle transition to Recovering
+                break;
+
+            case SkeletonState.Recovering:
+                recoveryTimer -= Time.deltaTime;
+                if (recoveryTimer <= 0)
+                {
+                    currentState = SkeletonState.Idle;
+                }
+                break;
         }
+    }
+
+    private void MoveTowardPlayer()
+    {
+        anim.SetBool("isMoving", true);
+        Vector2 direction = (player.position - transform.position).normalized;
+        transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+
+        // Flip sprite
+        if (direction.x < 0)
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         else
-        {
-            isChasing = false;
-            anim.SetBool("isMoving", false); // Stop moving if out of chase range
-        }
-
-        // Attack if within range and cooldown allows
-        if (PlayerInAttackRange() && cooldownTimer >= attackCoolDown)
-        {
-            AttackPlayer();
-        }
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
     }
 
-    private bool PlayerInChaseRange()
+    private void StartAttack()
     {
-        return Vector2.Distance(transform.position, player.position) <= chaseRange;
-    }
-
-    private bool PlayerInAttackRange()
-    {
-        return Vector2.Distance(transform.position, player.position) <= attackRange;
-    }
-
-    private void ChasePlayer()
-    {
-        if (!isAttacking) // Only chase if not attacking
-        {
-            anim.SetBool("isMoving", true); // Play walking animation
-            Vector2 direction = (player.position - transform.position).normalized;
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-
-            // Flip sprite to face player
-            if (direction.x < 0)
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            else
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        }
-    }
-
-    private void AttackPlayer()
-    {
-        isAttacking = true;
-        hitbox.gameObject.SetActive(true);
+        anim.SetBool("isMoving", false);
         anim.SetTrigger("attack");
         cooldownTimer = 0;
-
-        // Only apply damage if the player is within range when the attack starts
-        if (PlayerInAttackRange() && playerHealth != null)
-        {
-            Vector2 attackDirection = (player.position - transform.position).normalized;
-            playerHealth.TakeDamage(damage, attackDirection);
-        }
+        hitbox.SetActive(true); // Hitbox will do damage via its own trigger
     }
 
-    // Called by the animation event at the end of the attack animation
+    // Called from Animation Event at end of attack animation
     public void OnAttackAnimationEnd()
     {
-        isAttacking = false;
-        hitbox.gameObject.SetActive(false);
+        hitbox.SetActive(false);
+        currentState = SkeletonState.Recovering;
+        recoveryTimer = recoveryTime;
+    }
+
+    //Toimi unity
+    public void EnableHitbox()
+    {
+        hitbox.SetActive(true);
+    }
+
+    public void DisableHitbox()
+    {
+        hitbox.SetActive(false);
     }
 }

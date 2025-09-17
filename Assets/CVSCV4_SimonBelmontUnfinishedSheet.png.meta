@@ -1,0 +1,2612 @@
+fileFormatVersion: 2
+guid: 7d87018d70d8ca84aae4b7ea8325c3fa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 752
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbd833f8bf0ec94596004457a29ca56
+      internalID: 2047046810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 752
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d2d76bdc1de2f49aab0e8130703f84
+      internalID: 1908081461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 751
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b87777b5a8b644d94e326ea5a84940
+      internalID: -176329196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 750
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f953eaa0314db4a86155b319269334
+      internalID: -939744889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 751
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2083918d7d80e4646a8d63e81a2f2c1a
+      internalID: -601045982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 750
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916d86951a341ba4482e593707786e9f
+      internalID: -252468192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 749
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1486ce27566263240bf9900ecd69d7e2
+      internalID: 1783434500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 750
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5629ab1773ee3846b98fc4b59d71060
+      internalID: -1095998349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 750
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19e2414fb290204eba3591a5bf9fca2
+      internalID: 503468229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 750
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de747e341d6c49241906b948cc516258
+      internalID: 12880025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_11
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 687
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a5217d298bf454da37a9bf6f968788
+      internalID: 1623437309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_12
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 762
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dceceac8845b5e448ee620f8bdaa3b3
+      internalID: -1195662690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 680
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: 0.60951895, y: 0.5438077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9ac620c37039d47945bf2f1559aec5
+      internalID: -896344217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 685
+        width: 52
+        height: 59
+      alignment: 9
+      pivot: {x: 0.70012295, y: 0.41927427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b850861cc64a1e4c916b2dfb35b1826
+      internalID: 1003742266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 686
+        width: 79
+        height: 47
+      alignment: 9
+      pivot: {x: 0.13649103, y: 0.53277457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5be95ad6a579b543b7665374980bb78
+      internalID: -1005395510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 685
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e0b052b1b2843469baf392d441d7c7
+      internalID: -517450757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_18
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 683
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f807518c261431c4c955e3bf2b3d09d0
+      internalID: -896821169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_19
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 683
+        width: 27
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5122583c9e55d649828662fb14f1bd9
+      internalID: 755081555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 687
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15331d2a5be88854bbef4705bd13a7f2
+      internalID: 162110028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_21
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 726
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cbee95200e98943bd426ca50daeb72
+      internalID: 661197301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 718
+        width: 46
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c8c56bc59061d49982a261505802ba
+      internalID: 1018788460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_24
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 689
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6bf14673042d2489717da486067e42
+      internalID: 601508995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 683
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173ae801ede7541469f24a42dea74ab4
+      internalID: 1886282032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 636
+        width: 23
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5027425, y: 0.6062308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4762b520de13284b96f11ea6578f6f2
+      internalID: -1645337493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 627
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5714319, y: 0.65143126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ec4ace3e61c374ca034960fab2c51f
+      internalID: -838381684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 629
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.7471575, y: 0.46917352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcedf88978838c8478bf95f5b757cc39
+      internalID: 1820063340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 630
+        width: 78
+        height: 34
+      alignment: 9
+      pivot: {x: 0.14332287, y: 0.6091614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fd998a5c000e54098510ca02ff6b8b
+      internalID: -1356936281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_32
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 631
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34d47ee1bd6c504588087f2c62a66bb
+      internalID: 571229312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_33
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 632
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5cd194130d58842a92853da83a7a7f
+      internalID: 970557906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 569
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0bfae86547bc4d84565005db06536
+      internalID: 28086277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 590
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1e41103ca6691449b41891d93121ed
+      internalID: 1370408876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 552
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edc82ee8c221a245bed8810803013f8
+      internalID: 778079080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 589
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3b6f840d25d8b4889b0b35b718e196
+      internalID: -499133171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_38
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 564
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae25d6ee639d23046897d819da0fd782
+      internalID: -1869250825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_39
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 569
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48275bfafce8f1499427238fa91193f
+      internalID: -1888621214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 567
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3cf426336b15f4da0c2f9aa547fb1a
+      internalID: 1700850349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_41
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 568
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a23d75f70b89124498d33d326ea3651
+      internalID: -744487131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_42
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 600
+        width: 40
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86660bc320e3f40a3ce93e44139a90
+      internalID: -1287729681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 565
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be75fd66bd76f0c4eb36de4f3546e951
+      internalID: 650307201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 565
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8a7ce765346b4d9068c492e29971b
+      internalID: -340174400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_45
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 569
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2b1e4ea0edb5469c96ea9ce451c6b
+      internalID: 1327723549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_46
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 552
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f3d34865b069148b91d3ca0fecd0f1
+      internalID: 2031826504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_47
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 549
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6c89001d62c224c9185c9c06f72ceb
+      internalID: 2115004222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_48
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 565
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e099f9bfc1de9fa4daf34850623f61e8
+      internalID: 459690853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_49
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 492
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd5e28b04cf75248967a24c51955e8f
+      internalID: -493254455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_50
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 493
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d6278327b1d1047948a0403bf4e8d6
+      internalID: 1878585271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_51
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 495
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a6e941fc3b7242a1c352dadba5429
+      internalID: 1347897628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_52
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 495
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd361ad3eadaf61499e189d172e67527
+      internalID: 1246779565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 496
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68505b79c2c510b4bbed22e2b6ab97dc
+      internalID: 1763607846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_54
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 495
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770b3d2776388d4d87f596577960509
+      internalID: 1511623102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_55
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 500
+        width: 24
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7878ea2f4c1f9a843ba72b8fefab6ff9
+      internalID: 928921694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_56
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 502
+        width: 43
+        height: 23
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed03a9aa57d5e743beaf882b61ef4ba
+      internalID: 908695853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 503
+        width: 65
+        height: 10
+      alignment: 9
+      pivot: {x: 0.48684645, y: 2.3809693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb91e8f6ad7ad34a879305fc8dd3824
+      internalID: -357035217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 432
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a15d61e6383534393e7d8459ccbc13
+      internalID: 1227303380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_59
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 432
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb12c5fe485d59e4ebeccb9e24d2770f
+      internalID: -75210852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 432
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee743e6d97d07d45b45eaddd89ee7c6
+      internalID: -1363488253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_61
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 434
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc851fb6d87a0cf43adf9fd390701b41
+      internalID: 1796014892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_62
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 434
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8189e98e162047648999e4f9497ab2bd
+      internalID: -206946067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_63
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 434
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db99238da9c22444ab0f6466d62e9b4
+      internalID: 1191305451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 434
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ce9fed01897954b9c575030bd6ff0d
+      internalID: -499445094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_65
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 437
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7338dc1b1fabbf14b922d46d1980a69f
+      internalID: 1001131460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_66
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 437
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274f2df80aabe564f9f704846488555b
+      internalID: -1528315617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_67
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 436
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4285dd9193e2f43903a5820cfb4949
+      internalID: -2048978045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_68
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 437
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9243f0f03763e348a82eca3c5167068
+      internalID: -306080987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_69
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 438
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d25294c4e23742a50af13ecea2fa9
+      internalID: -1548217775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_70
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 435
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f842a8ca57cce643a8d98473cd7a40c
+      internalID: 1597070565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_71
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 371
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbd0fc1987d432478b3dd499e2b109e
+      internalID: -1098647636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_72
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 372
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fee309136a9d5498490225a4f3136c
+      internalID: -273222333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_73
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 309
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786e08ce4450f43429f2f2c37b582200
+      internalID: -771050310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_75
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 304
+        width: 44
+        height: 51
+      alignment: 9
+      pivot: {x: 0.60615164, y: 0.663883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a917fe686d0574980417b7e60fb30d
+      internalID: 772055565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_76
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 307
+        width: 49
+        height: 59
+      alignment: 9
+      pivot: {x: 0.740808, y: 0.4833338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f14e077aa9fbc44699bd040eb482a68
+      internalID: 1018583613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 308
+        width: 75
+        height: 47
+      alignment: 9
+      pivot: {x: 0.08701497, y: 0.5993756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dd9abf43d56874a96620ffe84f945c
+      internalID: 1653278422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_79
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 307
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f02fc879edbd94ab5db2769a93c978
+      internalID: 991438708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_80
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 339
+        width: 46
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9edd40da97eba4eae617b6bf579b62
+      internalID: 1395544267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_81
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 305
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514d6f421184a4244b4a6f5b89b0a612
+      internalID: 1983001916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_82
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 304
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e8ab7832559843a703faee2be7ac1
+      internalID: -146164253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_83
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 309
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c079ba4985cd5a2479bfbe1ca5ffcac4
+      internalID: -2090914851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_84
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 305
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34e3872b11921e4f89d95dbf81abdab
+      internalID: -530730607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_85
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 251
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d737a952c19914989e12d1a700c14a
+      internalID: -1875558230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_86
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 252
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6ea5d0a2c093a4e8aa317014afd1bc
+      internalID: -357693860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_87
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 189
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8b169307acd79409caff1cc1103de6
+      internalID: -657583261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_88
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 189
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7007d448609bd0f4c8242319dac9d9e0
+      internalID: 1956321692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_89
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 184
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d4660a7e8d910489598a35c5195e30
+      internalID: -1694694949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_90
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 187
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6452abe5afc3d40bbf871d4e23044d
+      internalID: 1787993402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_91
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 220
+        width: 40
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa85a75a89353984390d723f2c18c25b
+      internalID: 2037632638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_92
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 188
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b668e57b286d644a84b5aa5d5a4a22f
+      internalID: 626783716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_93
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 219
+        width: 46
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d688505d855011c46b2b038e86c87c1e
+      internalID: -318286393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_94
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 187
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8205034c8f5d8d947ab2f6d0a78eee7c
+      internalID: 1709009489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_95
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 185
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa945a1a698b8eb4c9d612ee946faefa
+      internalID: 969334161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_96
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 184
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd494cee65851b44a76a27fbe8aee63
+      internalID: 162155205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_97
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 189
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4e08b3507edfe41af59baa8cb2c0f8
+      internalID: -23722311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_98
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 185
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e563ab7852b04284699eb3f9e2c72c2a
+      internalID: -1628437005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 122
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1956b693e3ffeb4cb5963b63d8ea2ae
+      internalID: 203032864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_100
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 121
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30002b2f886a0d4eb989abcd3f032e4
+      internalID: -1576929013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_101
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 120
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46abf9430445e14e948976431bc81a3
+      internalID: 1860692553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_102
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 122
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862f27e8adb2b0c42b9d411584d550cc
+      internalID: -748859216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_103
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 118
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a56fe12e52abe3408b39a5aabc04a59
+      internalID: 2081683104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_104
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 118
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6189fd8010b1c4ea3764b74c097457
+      internalID: -147475579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_105
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 111
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e83120e318d493419838bc60101cb9b
+      internalID: -344393372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_106
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 111
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17881ff89601f0d46b9c6159f6f470fd
+      internalID: 2045588517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_107
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 111
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e67feb3f7620df4a9913ce14ab57489
+      internalID: -391436801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_108
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 112
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f922486106f689429abccf606d8162d
+      internalID: -1316984644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_109
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 112
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6421770c4d82a614d8593efc40effe4b
+      internalID: 1139915287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_110
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 63
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374dbfef987bc8a49b7809f4fdea9c7a
+      internalID: 1102048172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_111
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 44
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3adc02784f08574e8c4c2f1e09a6b78
+      internalID: 147554614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_112
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 36
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae651d204b4e41459ddb8092246d358
+      internalID: -1372683968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_113
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 39
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baebbc43d8534bf428e738fb5ba6c531
+      internalID: -1325080851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_114
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 53
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb009b551be1e10479c40e303386bda3
+      internalID: -1180992379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_115
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 52
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbd257c52a4700478e43d88a31e9694
+      internalID: 167753606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_116
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 50
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eac8195742cb148ad195d8d6431181
+      internalID: -25890588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_117
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 50
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f66981678a9a94c973ffa1dc53bb3b
+      internalID: -1374719950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CVSCV4_SimonBelmontUnfinishedSheet_118
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 49
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602044d42fe3a3342be46aaf240bacc1
+      internalID: 1052129892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CVSCV4_SimonBelmontUnfinishedSheet_0: 2047046810
+      CVSCV4_SimonBelmontUnfinishedSheet_1: 1908081461
+      CVSCV4_SimonBelmontUnfinishedSheet_10: 12880025
+      CVSCV4_SimonBelmontUnfinishedSheet_100: -1576929013
+      CVSCV4_SimonBelmontUnfinishedSheet_101: 1860692553
+      CVSCV4_SimonBelmontUnfinishedSheet_102: -748859216
+      CVSCV4_SimonBelmontUnfinishedSheet_103: 2081683104
+      CVSCV4_SimonBelmontUnfinishedSheet_104: -147475579
+      CVSCV4_SimonBelmontUnfinishedSheet_105: -344393372
+      CVSCV4_SimonBelmontUnfinishedSheet_106: 2045588517
+      CVSCV4_SimonBelmontUnfinishedSheet_107: -391436801
+      CVSCV4_SimonBelmontUnfinishedSheet_108: -1316984644
+      CVSCV4_SimonBelmontUnfinishedSheet_109: 1139915287
+      CVSCV4_SimonBelmontUnfinishedSheet_11: 1623437309
+      CVSCV4_SimonBelmontUnfinishedSheet_110: 1102048172
+      CVSCV4_SimonBelmontUnfinishedSheet_111: 147554614
+      CVSCV4_SimonBelmontUnfinishedSheet_112: -1372683968
+      CVSCV4_SimonBelmontUnfinishedSheet_113: -1325080851
+      CVSCV4_SimonBelmontUnfinishedSheet_114: -1180992379
+      CVSCV4_SimonBelmontUnfinishedSheet_115: 167753606
+      CVSCV4_SimonBelmontUnfinishedSheet_116: -25890588
+      CVSCV4_SimonBelmontUnfinishedSheet_117: -1374719950
+      CVSCV4_SimonBelmontUnfinishedSheet_118: 1052129892
+      CVSCV4_SimonBelmontUnfinishedSheet_119: 2042336608
+      CVSCV4_SimonBelmontUnfinishedSheet_12: -1195662690
+      CVSCV4_SimonBelmontUnfinishedSheet_13: 566317088
+      CVSCV4_SimonBelmontUnfinishedSheet_14: -896344217
+      CVSCV4_SimonBelmontUnfinishedSheet_15: 1003742266
+      CVSCV4_SimonBelmontUnfinishedSheet_16: -1005395510
+      CVSCV4_SimonBelmontUnfinishedSheet_17: -517450757
+      CVSCV4_SimonBelmontUnfinishedSheet_18: -896821169
+      CVSCV4_SimonBelmontUnfinishedSheet_19: 755081555
+      CVSCV4_SimonBelmontUnfinishedSheet_2: -176329196
+      CVSCV4_SimonBelmontUnfinishedSheet_20: 162110028
+      CVSCV4_SimonBelmontUnfinishedSheet_21: 661197301
+      CVSCV4_SimonBelmontUnfinishedSheet_22: 167836191
+      CVSCV4_SimonBelmontUnfinishedSheet_23: 1018788460
+      CVSCV4_SimonBelmontUnfinishedSheet_24: 601508995
+      CVSCV4_SimonBelmontUnfinishedSheet_25: 1886282032
+      CVSCV4_SimonBelmontUnfinishedSheet_26: -1645337493
+      CVSCV4_SimonBelmontUnfinishedSheet_27: 988987762
+      CVSCV4_SimonBelmontUnfinishedSheet_28: -838381684
+      CVSCV4_SimonBelmontUnfinishedSheet_29: 1820063340
+      CVSCV4_SimonBelmontUnfinishedSheet_3: -939744889
+      CVSCV4_SimonBelmontUnfinishedSheet_30: -1356936281
+      CVSCV4_SimonBelmontUnfinishedSheet_31: 1321217329
+      CVSCV4_SimonBelmontUnfinishedSheet_32: 571229312
+      CVSCV4_SimonBelmontUnfinishedSheet_33: 970557906
+      CVSCV4_SimonBelmontUnfinishedSheet_34: 28086277
+      CVSCV4_SimonBelmontUnfinishedSheet_35: 1370408876
+      CVSCV4_SimonBelmontUnfinishedSheet_36: 778079080
+      CVSCV4_SimonBelmontUnfinishedSheet_37: -499133171
+      CVSCV4_SimonBelmontUnfinishedSheet_38: -1869250825
+      CVSCV4_SimonBelmontUnfinishedSheet_39: -1888621214
+      CVSCV4_SimonBelmontUnfinishedSheet_4: -601045982
+      CVSCV4_SimonBelmontUnfinishedSheet_40: 1700850349
+      CVSCV4_SimonBelmontUnfinishedSheet_41: -744487131
+      CVSCV4_SimonBelmontUnfinishedSheet_42: -1287729681
+      CVSCV4_SimonBelmontUnfinishedSheet_43: 650307201
+      CVSCV4_SimonBelmontUnfinishedSheet_44: -340174400
+      CVSCV4_SimonBelmontUnfinishedSheet_45: 1327723549
+      CVSCV4_SimonBelmontUnfinishedSheet_46: 2031826504
+      CVSCV4_SimonBelmontUnfinishedSheet_47: 2115004222
+      CVSCV4_SimonBelmontUnfinishedSheet_48: 459690853
+      CVSCV4_SimonBelmontUnfinishedSheet_49: -493254455
+      CVSCV4_SimonBelmontUnfinishedSheet_5: -252468192
+      CVSCV4_SimonBelmontUnfinishedSheet_50: 1878585271
+      CVSCV4_SimonBelmontUnfinishedSheet_51: 1347897628
+      CVSCV4_SimonBelmontUnfinishedSheet_52: 1246779565
+      CVSCV4_SimonBelmontUnfinishedSheet_53: 1763607846
+      CVSCV4_SimonBelmontUnfinishedSheet_54: 1511623102
+      CVSCV4_SimonBelmontUnfinishedSheet_55: 928921694
+      CVSCV4_SimonBelmontUnfinishedSheet_56: 908695853
+      CVSCV4_SimonBelmontUnfinishedSheet_57: -357035217
+      CVSCV4_SimonBelmontUnfinishedSheet_58: 1227303380
+      CVSCV4_SimonBelmontUnfinishedSheet_59: -75210852
+      CVSCV4_SimonBelmontUnfinishedSheet_6: 1783434500
+      CVSCV4_SimonBelmontUnfinishedSheet_60: -1363488253
+      CVSCV4_SimonBelmontUnfinishedSheet_61: 1796014892
+      CVSCV4_SimonBelmontUnfinishedSheet_62: -206946067
+      CVSCV4_SimonBelmontUnfinishedSheet_63: 1191305451
+      CVSCV4_SimonBelmontUnfinishedSheet_64: -499445094
+      CVSCV4_SimonBelmontUnfinishedSheet_65: 1001131460
+      CVSCV4_SimonBelmontUnfinishedSheet_66: -1528315617
+      CVSCV4_SimonBelmontUnfinishedSheet_67: -2048978045
+      CVSCV4_SimonBelmontUnfinishedSheet_68: -306080987
+      CVSCV4_SimonBelmontUnfinishedSheet_69: -1548217775
+      CVSCV4_SimonBelmontUnfinishedSheet_7: -1095998349
+      CVSCV4_SimonBelmontUnfinishedSheet_70: 1597070565
+      CVSCV4_SimonBelmontUnfinishedSheet_71: -1098647636
+      CVSCV4_SimonBelmontUnfinishedSheet_72: -273222333
+      CVSCV4_SimonBelmontUnfinishedSheet_73: -771050310
+      CVSCV4_SimonBelmontUnfinishedSheet_74: -412994086
+      CVSCV4_SimonBelmontUnfinishedSheet_75: 772055565
+      CVSCV4_SimonBelmontUnfinishedSheet_76: 1018583613
+      CVSCV4_SimonBelmontUnfinishedSheet_77: 1653278422
+      CVSCV4_SimonBelmontUnfinishedSheet_78: -22741453
+      CVSCV4_SimonBelmontUnfinishedSheet_79: 991438708
+      CVSCV4_SimonBelmontUnfinishedSheet_8: 503468229
+      CVSCV4_SimonBelmontUnfinishedSheet_80: 1395544267
+      CVSCV4_SimonBelmontUnfinishedSheet_81: 1983001916
+      CVSCV4_SimonBelmontUnfinishedSheet_82: -146164253
+      CVSCV4_SimonBelmontUnfinishedSheet_83: -2090914851
+      CVSCV4_SimonBelmontUnfinishedSheet_84: -530730607
+      CVSCV4_SimonBelmontUnfinishedSheet_85: -1875558230
+      CVSCV4_SimonBelmontUnfinishedSheet_86: -357693860
+      CVSCV4_SimonBelmontUnfinishedSheet_87: -657583261
+      CVSCV4_SimonBelmontUnfinishedSheet_88: 1956321692
+      CVSCV4_SimonBelmontUnfinishedSheet_89: -1694694949
+      CVSCV4_SimonBelmontUnfinishedSheet_9: 1740160223
+      CVSCV4_SimonBelmontUnfinishedSheet_90: 1787993402
+      CVSCV4_SimonBelmontUnfinishedSheet_91: 2037632638
+      CVSCV4_SimonBelmontUnfinishedSheet_92: 626783716
+      CVSCV4_SimonBelmontUnfinishedSheet_93: -318286393
+      CVSCV4_SimonBelmontUnfinishedSheet_94: 1709009489
+      CVSCV4_SimonBelmontUnfinishedSheet_95: 969334161
+      CVSCV4_SimonBelmontUnfinishedSheet_96: 162155205
+      CVSCV4_SimonBelmontUnfinishedSheet_97: -23722311
+      CVSCV4_SimonBelmontUnfinishedSheet_98: -1628437005
+      CVSCV4_SimonBelmontUnfinishedSheet_99: 203032864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

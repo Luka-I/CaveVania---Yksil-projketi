@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 0b82f40d39c02be4c8e0356773b0cf2e
+  productGUID: d688b2cce04785d4daacb58f859bb3e8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: CaveVania
+  productName: CaveVania fixed map
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -547,7 +547,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 2
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -591,14 +591,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: CaveVania
+  metroPackageName: CaveVania fixed map
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: CaveVania
+  metroApplicationDescription: CaveVania fixed map
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -666,10 +666,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 7ce3686d-d581-463d-93bb-c824dc22e463
+  cloudProjectId: 5c92e62c-4f22-41f6-a37e-82b7da847774
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: CaveVania
+  projectName: CaveVania fixed map
   organizationId: luxutor
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

@@ -1,0 +1,4712 @@
+fileFormatVersion: 2
+guid: ac67801b34e90964e941e08020414c98
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1050
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e52a17898b17cf44a339630058a7d2b
+      internalID: 1403532090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1050
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fc5b0dcf228e644b57dfc7d44a876c
+      internalID: -52413732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1050
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1849aa033283f349826ac1fbd042e56
+      internalID: -1610716396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1050
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577fad2f1a987e34188eb6b3d19bab0c
+      internalID: -126938048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1050
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a18e887ea0cc458ff5c7bf7ac6565
+      internalID: -1327421565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1050
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df49b29452043f4f86d30add2ef2454
+      internalID: 1334462789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1050
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b2859e7ab138d4e81e80d80fc1f535
+      internalID: -417742539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1050
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9f3b05aba720d43b0075eb873ac012
+      internalID: 575948124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1050
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d73c86088efbe4188977925d29775f
+      internalID: 1120964742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1050
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de739d774f0835c4499d6e40209f8480
+      internalID: -1196416917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1050
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6a880015a451469bc5cb32a2f9fb5
+      internalID: 352129977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1050
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca53c6490fa21e3429432e2f81fb24fe
+      internalID: 1401788910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1050
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f41ef2a24b37d0498b054066496a31a
+      internalID: 1150919104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1050
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e63f523c76bb9e4485fabf5a64a226f
+      internalID: -2057636036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_14
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1050
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63440d24802dc94cbe8c0c497ac6201
+      internalID: 427482771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1050
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ad2bfb4dd25fa4e9e30a369561af2a
+      internalID: -150068434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1050
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103d4d26411263f4c91f22d091bbd20d
+      internalID: -288453476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1050
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0741553d524a8e648b5de0ac7ac731df
+      internalID: -68471886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1050
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2702f7c68de03a8449c54469917c6820
+      internalID: -528344193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_19
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1050
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0423b0c98e57d34dbe1b799e83019ef
+      internalID: 1406004477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_20
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1050
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d682f7c81a484c04bb2511ab33053f95
+      internalID: 578968100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1000
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e09e9dbc4779eb499a9c656251dfa4f
+      internalID: -1883938219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1000
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e23fc64db16b49a00352f2aaef732
+      internalID: 2107676348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1000
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109e2cb9071336f48a53884df376c682
+      internalID: 402723970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1000
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336523aaa816a2b42a31b27ef9d40bfe
+      internalID: -1326403072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1000
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc37de8b6308bb49979a0f88f73c67f
+      internalID: -890435043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1000
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e61f6756ef7314a94fe1bc7861a990
+      internalID: 1597797192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_27
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1000
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd5b326c028a164385b97eb7a60f62c
+      internalID: 590227103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_28
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1000
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a0be4edb6c5b1438783e57da66e724
+      internalID: -1617550050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1000
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa69cb2b5de554a883c5071c530942
+      internalID: -180265047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_30
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1000
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5472fa89c67b4b5418dbb835d4175e5f
+      internalID: -854499163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_31
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1001
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf576615a7e2ada45bc8d985408abb98
+      internalID: -256121205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_32
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1000
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0980784e781db7e42881db54dfc50f56
+      internalID: 633543848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_33
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1000
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5078e0aec5de8a943a509e9afd684e6d
+      internalID: -1258655795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_34
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1000
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a20e851ddd24654da60691b50e3996c
+      internalID: -1115647415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 948
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe78554644273646b1b3fa14a6fa2c6
+      internalID: 1718950158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 949
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffb5e33b3714d14ea1ee57879bb5304
+      internalID: -669553339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 948
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bca6e61a86a5b42885b9aa6e6e0c80
+      internalID: -1081412552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 948
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc78d3f9bb28f94cade6220d4885687
+      internalID: 1668688436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 948
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce38ce4d5d5e5594c8d5771cb4ceb2c3
+      internalID: 1638776718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 949
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2717c8f90efed547a827a44fc422d37
+      internalID: -1982240943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_41
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 948
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e98fdd0fa9baf84c92b23866e733d7e
+      internalID: -2062935586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_42
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 948
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bdd2fd1b7a7024890d152d0f813ee7
+      internalID: -406695031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 949
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc47900ad62cc4a4abc3b5363160cb35
+      internalID: 517051656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_44
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 949
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1108b1fc0e246a24f816a3a3f9160f4f
+      internalID: -598059775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_45
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 949
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd3e01229e5b844b56de2622735d2d
+      internalID: 1986805151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_46
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 948
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd368791ce99694c89716b08bacf2e4
+      internalID: 1889484773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_47
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 949
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0038b0414dc5f04faad3fedf6467229
+      internalID: 996254826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_48
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 949
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17004bbb3da01ef40bc6884f88dc3185
+      internalID: 787540710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_49
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 949
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2125e841cd0d44b3bc5831f942f32
+      internalID: -1817184979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 878
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8098ea0215344ac469b06a51d57aaad9
+      internalID: 837843594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_51
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 878
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c3b950c3f66f4448670431884ee2db
+      internalID: 800516708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 878
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1846f2814c9384d4f85adbc6b4dc6fa2
+      internalID: -1678934087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 878
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa60610dd08589499ea7a8938ad2d49
+      internalID: 1921121777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_54
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 878
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416893c73d58a7943a71c5c0dd898df8
+      internalID: 1516652789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 878
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc597888c10564049b4b470f26bb6b61
+      internalID: 1372346048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 878
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be862770884948b458008ed145aace32
+      internalID: 325967602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 878
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a6a6e99a96e544a8b4c0a5943f89f0
+      internalID: 1797248369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_58
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 878
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4fd8fa1fcab2048a0169eef17f960a
+      internalID: -1220157713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_59
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 878
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b5d84988113f646828dc5b90b2f177
+      internalID: -1039095082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_60
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 878
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab285ec2868b334899b898f3e91cd12
+      internalID: -1748012560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_61
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 878
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a81c103f1e722b41b5fa962515f22be
+      internalID: 1927192263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 818
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51184a7f7fc169b4f81212f08f765fc2
+      internalID: 1169230933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_63
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 818
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e505de3d521ebb64393d0d389df85697
+      internalID: 77640541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 818
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20a960588e45594abdc3e5b8257d624
+      internalID: 1915563054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 818
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f99615222ae79419e09c08f53b48c4
+      internalID: -1912495816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 818
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9e4c00b7ebda844b08d9b96a4b2341
+      internalID: 444406408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_67
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 818
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57e3002347dc0848b693d2e1955c464
+      internalID: -901950284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_68
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 818
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df001b6d829c384aa380fcc9cde208f
+      internalID: 120531326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_69
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 818
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5a5db1fcc18a64e963c3e5e68187ed
+      internalID: -902002130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_70
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 818
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20ad8c8ff5657c489ef9fb0eb726939
+      internalID: -1473010608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_71
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 818
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93584799b1053498ab62340b46a112
+      internalID: -46463343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 759
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bf9e8a54828ec48ab586fadfd1cd33
+      internalID: 893435904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_73
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 759
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea68b322165adca49ba47a57202f212f
+      internalID: -663581240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_74
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 759
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e664764a65d9e04ca33297e7c434a6d
+      internalID: 1990008524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_75
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 759
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49991d72355f09408eb032fd3b25379
+      internalID: -1146265244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_76
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 759
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea810051e8ea9de4ab9a84bce9c4b667
+      internalID: 416726596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_77
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 759
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2938506c2c50454d869fe9454eb5fe6
+      internalID: -677229081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_78
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 757
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb472d2cc03080e489e19fd0203402ba
+      internalID: -41945171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_79
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 757
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16198e19a25eab240a81692ca553e210
+      internalID: -38793051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_80
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 757
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7cf198908e2fe4d87b08af240772b3
+      internalID: -1693579627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_81
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 757
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8309f209eadf5154ab0d9f6fd6e92cbd
+      internalID: 525841433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_82
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 757
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f1637af38e8324596df3d901820723
+      internalID: -1085636788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_83
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 699
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2b54e06d49bf84bbb508347aba2c54
+      internalID: 538488470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_84
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 699
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338020601babfa94aa01d46c53ca2267
+      internalID: 13929921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_85
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 699
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb223224a3b9e7a44b04decbfeea6a90
+      internalID: 1692991522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_86
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 699
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00f52a5dc146904d9adf7cbc2a0c6df
+      internalID: 1841771267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_87
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 699
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1ea8db54fe3ba4f95dae00bbc7adbf
+      internalID: 400587761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_88
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 703
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb863584aef2684098f7c7cbd26d5b0
+      internalID: -1309243230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_89
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 703
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeba2e292e4eee4e803962a9eaa9dc4
+      internalID: -66394448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_90
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 703
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dbb0bd4b4c45841b04d5b4d5611e70
+      internalID: 689937721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_91
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 703
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a834d92b23bf4247ba784dca8ae6dc5
+      internalID: -246630353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_92
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 684
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbf3b8263c1a3c4499a2a9c134ae941
+      internalID: -1053896300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_93
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 684
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d87ea47919974495f689c3554c557
+      internalID: -438497969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_94
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 683
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bdf86725878974890790e054e4a062
+      internalID: 965764181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_95
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 684
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410af61bd68da1348a6f853723eb1ce4
+      internalID: 330551019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_96
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 685
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f861577bf290a74094eb08b6d4e986b
+      internalID: 1204601469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_97
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 622
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03e105ff2b9b3149823ef939cc6f24a
+      internalID: 245419356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_98
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 622
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d7fb13d42b044380dace62ca0695f
+      internalID: 1837181195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_99
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 622
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc63ce80c71769499e49f0c2cd43b64
+      internalID: 1321524610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_100
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 625
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75088fdb05ebf66499c17a2b79f8240c
+      internalID: 24162489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_101
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 622
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130978237fc1ff141a9ee814b02464ef
+      internalID: 1236344652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_102
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 621
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41500f2e63538354fa45aee5a0a6aca1
+      internalID: 2134774123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_103
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 622
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d70fb91ca284f84698294320368cfa6
+      internalID: 283312246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_104
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 621
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23de31d61a9360a4db6df6d06bf10ab5
+      internalID: 919088476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_131
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 549
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586dcda24ce239742bb93e6f2a9b386f
+      internalID: -955255179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_132
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 549
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4e66a5da991f743a191d95672b7b70
+      internalID: -662750734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_133
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 549
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea75620f0fe59714489775af4c024a68
+      internalID: -1155341914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_134
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 549
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf44927eccf9ae4390f3d67eb7f1704
+      internalID: 1312702981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_135
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 549
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dba0be6c64f2e4f847cb09692b26c2
+      internalID: 74760381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_136
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 549
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e02fb6468b15a419139869f1afb37a
+      internalID: 2136506986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_137
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 549
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00360eb1b286ce64993ca7c02375dda7
+      internalID: -818080116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_138
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 549
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d7199d7a134b49a2c7054e24bae72
+      internalID: 1728817611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_139
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 549
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56cd81266c8641468e7bab0ebb7e95f
+      internalID: -2036823313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_140
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 549
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e98118a062de9d40a306cbf600e6f40
+      internalID: -1556571918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_141
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 549
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8235b07a413699e4db5f2925f0747c2e
+      internalID: 707073810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_142
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 548
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fb55a6ea417854ab8b7a3209d60264
+      internalID: -482014889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_143
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 548
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cdaa64e37bea24badb25398e773c7e
+      internalID: 1793441333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_151
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 548
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363d8ae90a73dde4aa20d087ce894542
+      internalID: -1699009039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_152
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 478
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77587f7398e5a064b82564b92dd0748c
+      internalID: -256274161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_153
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 482
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae682a1a5c72f45ac7c36b92e689d2
+      internalID: 99546535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_154
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 484
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d076fc4f482f242ae5bcc5a9045475
+      internalID: 1821973217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_155
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 481
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ae084963d659b468a7532038c1ef80
+      internalID: 495989277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_156
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 484
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ddad8710f7e254da81c77bef1575eb
+      internalID: 1773341287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_157
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 482
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9723f7b682aedfb49a79a50f17a597f4
+      internalID: -1603471247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_158
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 480
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5926a1e58ab6f084787749fabd723cce
+      internalID: -490691295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_159
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 480
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fb17dfe5018fc44a46c8189ff4ce5c
+      internalID: 78965125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_160
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 480
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762588d3e6cd6344a98d5af6f3d21304
+      internalID: 1272302832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_161
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 480
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bddd1edb9f7c7741a876264d7caa53c
+      internalID: 933086692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_162
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 480
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b520cad636c597543b16347e02c503bc
+      internalID: 2142686547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_174
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 441
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbe149d276e9f64987247c05822b9aa
+      internalID: 842601485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_175
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 445
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e3c09831c6dbf42a2d5e81a1ec1326
+      internalID: -513659543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_176
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 439
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca755f5a67a6da4ab90a576875f928c
+      internalID: -436196189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_177
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 427
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad464bd4b07cb0b44a54ba08b7bb1521
+      internalID: -1910403306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_178
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 427
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d99883a6a93a2459930b6cf44e844f
+      internalID: -1719653559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_179
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 426
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02157dcc83c9c324fbf697cea87911a8
+      internalID: 692562769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_180
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 425
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f5074d3aba32745b3c620125aae921
+      internalID: -1687664241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_181
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 425
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976e08de6b52fb74594dc275c1e886b6
+      internalID: 1235134822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_182
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 425
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847876733c0960c4bbfaa62fa5da7d5b
+      internalID: 475502366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_183
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 425
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73285a704d0f5704b91614994bf525ab
+      internalID: -1309668388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_190
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8a061a832a4d740a45e43748e88d54
+      internalID: -1163988161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_191
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 368
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa6bf35c28cc4d41973a553ee27a3ff
+      internalID: 570581805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_192
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 368
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22938b3f2c45fd4b97de83be1196f46
+      internalID: -1858382280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_193
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f396ee70776e6c4f881e105fafbdef9
+      internalID: -836451765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_194
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 368
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9368f8c85016fe45bac99b793635d5c
+      internalID: 771737572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_195
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 368
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867c724598f5f6246b221ed028b2bf1f
+      internalID: -1006108995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_196
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbd6d1c0213f4348bccb60262190c63
+      internalID: -875252213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_197
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f973a23a194b364d8cb412cfed2f348
+      internalID: -2028567863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_198
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1583f0b510463b74ca595baea9ea3a06
+      internalID: 1101040858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_199
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c87c5eb3041b364092ac6fa34aeffe8
+      internalID: 314547740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_200
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cf8efaa34c1c441b2df80960b7cee6
+      internalID: -140405184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_201
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59f3d8a60702ba4cae546f3bd53c7d6
+      internalID: 2005426643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_202
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cc1ef5ce4563e409c512b3ae4c4228
+      internalID: 1826518558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_203
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 368
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9eab669c94986b46b1a5eb9b1b00924
+      internalID: 2131024618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_204
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 319
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136f81c0b03f0a04a88100623cca6dd0
+      internalID: 1465952679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_205
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 318
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97af973180533814d9a10e0a5e4ce2bf
+      internalID: 1005292065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_206
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 318
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87014bf976bf0df4bb39e80c21f77d43
+      internalID: -1921341766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_207
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 318
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13c5cf9970284146a9223134b1bb2d0
+      internalID: -774203327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_208
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 318
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11718654500400f44a48b24aff2cce0a
+      internalID: -654672685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_209
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 318
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29cfec5dbbe5e840bdb7edc6c2ee261
+      internalID: 2039814421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_210
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 318
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8177f8ca821c6dc42a3008014a68e038
+      internalID: -275740562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_211
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 318
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c62a8ab427ef54493e6b1516cd47e2
+      internalID: -315983005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_212
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 318
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0882dc896774da4aaace32e90dcfa2e
+      internalID: -760451562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_222
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 318
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bde06414c2524c45b9428c3426562ba
+      internalID: 1444651676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_223
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 318
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e6255d5afdba04cb65b3465b3d494a
+      internalID: -1125854800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_224
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 262
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2affaf5d8c6e37948910d24984b7ca49
+      internalID: 953118946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_225
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 262
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5f4f2d43f8474d8c24cacf11464ca
+      internalID: -1813063401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_226
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 262
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d5bd3e450d6b479691f28b58fdee2
+      internalID: -2098150773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_227
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 265
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f632abbd556f9cc4cbb256c0af62acdd
+      internalID: 1536504992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_228
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 256
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83011051486e974ba89eca7d62c149f
+      internalID: 378646506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_229
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 257
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ff548e2d8ae942b926672d91eae6e
+      internalID: 883549776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_236
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 256
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b120e8395841e84fbdc65ecd260569e
+      internalID: 1548089254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_237
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26158abbf83b9d448a880fcc4b008866
+      internalID: -2076833743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_277
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 207
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e1dbb63c64d9478e738f655e98f4c
+      internalID: 2088786723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_278
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 207
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae40d7220794d2b4098f88a901600d67
+      internalID: 748499618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_279
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 213
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb680afe02cee489ce23566b792fd5
+      internalID: -506492092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_280
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 210
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b13a516adcbb4eabaa5a0ec00bb4d
+      internalID: 1929767273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_281
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 207
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa723f7d3d85584b80208fda1b5ea27
+      internalID: 1619124607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_282
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 206
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3251b64de9ec24d85b5ce3381b9458
+      internalID: -2046047105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_283
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 224
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf939af307824a4b8adcb11fc75dcf6
+      internalID: 1781754519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_284
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 224
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08a57b75c3571f4182134a2ab781580
+      internalID: 1853785309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_285
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 208
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0f468a5278b534699febca7dfdb0ed
+      internalID: 175106611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_286
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 211
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2122e9202ca1e4a45a58fdf8087f1d06
+      internalID: -1993148471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_296
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7358e4c320b6d469c5440a2123b49f
+      internalID: 1694039496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_297
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 152
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3974fb25cf28efa43a0fc6ac72bef038
+      internalID: -1760577381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_316
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 152
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74369ca0bccb31468d9ec505f499e5d
+      internalID: -918217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_317
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 152
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ab5e064ed29fe49ad0bc1706130b18
+      internalID: -1148770091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_318
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 152
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526e77f624b6d8f4aa322849cd4d4bfc
+      internalID: -1829144491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_319
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 152
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8b6f648f43d5643a2cb6e23ae043fb
+      internalID: -121283390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_320
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 152
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb128d5387da4249a4578c633a68cc3
+      internalID: 474973238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_321
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 152
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a69f086ae17743ab85f13734360d3
+      internalID: -1647297792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_322
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 102
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce50ea66aa59dba4e81151ccf7c712c0
+      internalID: 1828466671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_323
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 102
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba85cecd3499cc43b3da11d60d1ef96
+      internalID: -574526509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_324
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 102
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849d4b72622df0044bb86de57ed41157
+      internalID: 112253821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_325
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 102
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec674ae7f6780046b35e359063ec6bf
+      internalID: -1817619853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_330
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 102
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a558ef005abda1c4888aee51d780e773
+      internalID: -512246246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_331
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 102
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1931037bc07ca304aa79c868a344ecaa
+      internalID: 1596163825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_0: 1403532090
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_1: -52413732
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_10: 352129977
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_100: 24162489
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_101: 1236344652
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_102: 2134774123
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_103: 283312246
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_104: 919088476
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_105: 843238766
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_106: 68652285
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_107: -1096777950
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_108: 680642795
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_109: -886472848
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_11: 1401788910
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_110: -1108157771
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_111: -973671292
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_112: 871113015
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_113: 841424483
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_114: 1062942116
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_115: -232146177
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_116: 580165949
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_117: 591970870
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_118: -678382510
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_119: 1236853041
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_12: 1150919104
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_120: 1064534991
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_121: -1911176181
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_122: 119343950
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_123: -1608553467
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_124: 569385763
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_125: 877816924
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_126: -355954443
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_127: -744234374
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_128: 571840459
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_129: 1562027884
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_13: -2057636036
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_130: -1847630560
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_131: -955255179
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_132: -662750734
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_133: -1155341914
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_134: 1312702981
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_135: 74760381
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_136: 2136506986
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_137: -818080116
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_138: 1728817611
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_139: -2036823313
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_14: 427482771
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_140: -1556571918
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_141: 707073810
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_142: -482014889
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_143: 1793441333
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_144: 1559679658
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_145: -1709733749
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_146: 920108756
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_147: 1994046148
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_148: 502449139
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_149: -393049364
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_15: -150068434
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_150: -702145379
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_151: -1699009039
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_152: -256274161
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_153: 99546535
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_154: 1821973217
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_155: 495989277
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_156: 1773341287
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_157: -1603471247
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_158: -490691295
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_159: 78965125
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_16: -288453476
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_160: 1272302832
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_161: 933086692
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_162: 2142686547
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_163: 1704062513
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_164: -623458315
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_165: 1758116733
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_166: -4947600
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_167: 33883604
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_168: 2110462250
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_169: -665346743
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_17: -68471886
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_170: 1222108791
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_171: -1640217408
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_172: 453965333
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_173: 942690041
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_174: 842601485
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_175: -513659543
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_176: -436196189
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_177: -1910403306
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_178: -1719653559
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_179: 692562769
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_18: -528344193
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_180: -1687664241
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_181: 1235134822
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_182: 475502366
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_183: -1309668388
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_184: -1309808803
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_185: 761001783
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_186: -1556290256
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_187: -1885321042
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_188: -76301541
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_189: 1198253278
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_19: 1406004477
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_190: -1163988161
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_191: 570581805
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_192: -1858382280
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_193: -836451765
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_194: 771737572
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_195: -1006108995
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_196: -875252213
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_197: -2028567863
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_198: 1101040858
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_199: 314547740
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_2: -1610716396
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_20: 578968100
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_200: -140405184
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_201: 2005426643
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_202: 1826518558
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_203: 2131024618
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_204: 1465952679
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_205: 1005292065
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_206: -1921341766
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_207: -774203327
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_208: -654672685
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_209: 2039814421
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_21: -1883938219
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_210: -275740562
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_211: -315983005
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_212: -760451562
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_213: 1233034431
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_214: 16829615
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_215: 496825291
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_216: 729970093
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_217: 1506087016
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_218: -950230487
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_219: -3011485
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_22: 2107676348
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_220: 1996216769
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_221: 1775309911
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_222: 1444651676
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_223: -1125854800
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_224: 953118946
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_225: -1813063401
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_226: -2098150773
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_227: 1536504992
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_228: 378646506
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_229: 883549776
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_23: 402723970
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_230: -359363368
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_231: -596161535
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_232: -641753748
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_233: -1902566991
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_234: -606835737
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_235: 155829509
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_236: 1548089254
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_237: -2076833743
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_238: 1991821334
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_239: 91728511
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_24: -1326403072
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_240: 266304152
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_241: 2144919385
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_242: 2058428931
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_243: 732302363
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_244: -249815454
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_245: 1591272967
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_246: -1107686168
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_247: -964945344
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_248: 540045459
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_249: -1272710817
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_25: -890435043
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_250: 1609436841
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_251: -1004883734
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_252: -346690917
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_253: -316078910
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_254: -1586362345
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_255: 347567547
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_256: 1749163041
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_257: -1066961447
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_258: 728606190
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_259: -806197090
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_26: 1597797192
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_260: 7734189
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_261: -1426211729
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_262: -1681745653
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_263: -1180263266
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_264: 3753484
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_265: 781318806
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_266: -953842514
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_267: -806102904
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_268: 619913484
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_269: -2057061894
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_27: 590227103
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_270: -30713530
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_271: -1244512028
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_272: -1905504250
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_273: 2027280372
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_274: 280715030
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_275: 935217850
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_276: 1497255592
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_277: 2088786723
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_278: 748499618
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_279: -506492092
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_28: -1617550050
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_280: 1929767273
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_281: 1619124607
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_282: -2046047105
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_283: 1781754519
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_284: 1853785309
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_285: 175106611
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_286: -1993148471
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_287: 54558924
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_288: 287600013
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_289: 12490973
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_29: -180265047
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_290: -338573640
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_291: -359026247
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_292: -37120953
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_293: 1434479548
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_294: -1257358359
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_295: -141541231
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_296: 1694039496
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_297: -1760577381
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_298: 1816865862
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_299: 470717005
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_3: -126938048
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_30: -854499163
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_300: 1699613334
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_301: 1623769054
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_302: -2049945711
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_303: 1074659327
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_304: -826522092
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_305: 1449831085
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_306: 941218709
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_307: 1572526890
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_308: 444980392
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_309: 731959289
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_31: -256121205
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_310: 590384921
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_311: -317602001
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_312: -313888725
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_313: -73175967
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_314: 189769677
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_315: 971126349
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_316: -918217
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_317: -1148770091
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_318: -1829144491
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_319: -121283390
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_32: 633543848
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_320: 474973238
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_321: -1647297792
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_322: 1828466671
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_323: -574526509
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_324: 112253821
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_325: -1817619853
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_326: -847388180
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_327: -1946228548
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_328: 1618869692
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_329: 1408933088
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_33: -1258655795
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_330: -512246246
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_331: 1596163825
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_332: 776757955
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_333: 2081341229
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_334: -1043105383
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_335: 865364725
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_336: -1155555740
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_337: 857907727
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_338: -191562798
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_339: 213534787
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_34: -1115647415
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_340: -1312913311
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_341: 93041686
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_342: -1741009114
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_343: 733589107
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_344: 1664372936
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_345: -494288696
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_346: 129370055
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_347: 538717397
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_348: 481300684
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_349: -2125972938
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_35: 1718950158
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_350: 817775256
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_351: -961498518
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_352: -845617456
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_353: 571775997
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_354: -488998644
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_355: 481165977
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_356: 601653970
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_357: 2034131477
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_358: 663229792
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_359: 403440106
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_36: -669553339
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_360: -1496094201
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_361: 1823326445
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_362: -1916580378
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_363: 445688598
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_364: -362277986
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_365: -1582302540
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_366: -686992240
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_367: -1203768275
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_368: -959420983
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_369: 1538089921
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_37: -1081412552
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_370: 333855033
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_371: 1310080022
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_372: 1921956305
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_373: -1775463442
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_374: -77779801
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_375: 1013308238
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_376: -744550736
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_377: 966895970
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_378: 1857781071
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_379: 678962771
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_38: 1668688436
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_380: -1529260555
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_381: 240102744
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_382: -296542732
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_383: 119891505
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_384: -2080642111
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_385: -510585777
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_386: -229723419
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_387: 1653573721
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_388: 1940950035
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_389: -1972512853
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_39: 1638776718
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_390: 1879708019
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_391: -1849368231
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_392: 1886261334
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_393: 806863200
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_394: -621942375
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_395: -433668215
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_396: 1328791976
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_397: -644189021
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_398: 982979663
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_399: -263814624
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_4: -1327421565
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_40: -1982240943
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_400: 1230341703
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_401: 1197776985
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_402: -748654045
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_403: 1525930551
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_404: -956718508
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_405: -884734914
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_406: 1493179386
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_407: 1513790292
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_408: -1285238809
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_409: -1929485216
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_41: -2062935586
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_410: 541041558
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_411: -339334967
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_412: -1354166176
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_413: 622209917
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_414: -1080529701
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_415: -914241099
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_416: 2032119282
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_417: -1366425592
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_418: -1577150066
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_419: 1532053447
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_42: -406695031
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_420: -198237958
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_421: -1821933203
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_422: 430736870
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_423: -1460647168
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_424: 3668702
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_425: -1228271117
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_426: 920974073
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_427: -1040776984
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_428: -715975412
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_429: 1563621526
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_43: 517051656
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_430: 1729688429
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_431: -363108858
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_432: 872683839
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_433: -2071708779
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_434: -1850981504
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_44: -598059775
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_45: 1986805151
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_46: 1889484773
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_47: 996254826
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_48: 787540710
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_49: -1817184979
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_5: 1334462789
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_50: 837843594
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_51: 800516708
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_52: -1678934087
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_53: 1921121777
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_54: 1516652789
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_55: 1372346048
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_56: 325967602
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_57: 1797248369
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_58: -1220157713
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_59: -1039095082
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_6: -417742539
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_60: -1748012560
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_61: 1927192263
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_62: 1169230933
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_63: 77640541
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_64: 1915563054
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_65: -1912495816
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_66: 444406408
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_67: -901950284
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_68: 120531326
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_69: -902002130
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_7: 575948124
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_70: -1473010608
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_71: -46463343
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_72: 893435904
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_73: -663581240
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_74: 1990008524
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_75: -1146265244
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_76: 416726596
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_77: -677229081
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_78: -41945171
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_79: -38793051
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_8: 1120964742
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_80: -1693579627
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_81: 525841433
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_82: -1085636788
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_83: 538488470
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_84: 13929921
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_85: 1692991522
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_86: 1841771267
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_87: 400587761
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_88: -1309243230
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_89: -66394448
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_9: -1196416917
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_90: 689937721
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_91: -246630353
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_92: -1053896300
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_93: -438497969
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_94: 965764181
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_95: 330551019
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_96: 1204601469
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_97: 245419356
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_98: 1837181195
+      Custom Edited - Castlevania Customs - Trevor Belmont SotN-Expanded_99: 1321524610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
