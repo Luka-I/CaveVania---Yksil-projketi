@@ -125,10 +125,20 @@ public class PlayerCombat : MonoBehaviour
         // Shared logic for applying damage
         foreach (Transform attackPoint in AttackPoints)
         {
+            if (attackPoint == null) continue;
+
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, enemyLayers);
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<Enemy>().TakeDamage(AttackDamage);
+                // Check if the enemy object still exists and has the Enemy component
+                if (enemy != null && enemy.gameObject.activeInHierarchy)
+                {
+                    Enemy enemyComponent = enemy.GetComponent<Enemy>();
+                    if (enemyComponent != null)
+                    {
+                        enemyComponent.TakeDamage(AttackDamage);
+                    }
+                }
             }
         }
     }

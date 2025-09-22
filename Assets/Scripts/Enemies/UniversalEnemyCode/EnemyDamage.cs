@@ -5,16 +5,29 @@ using UnityEngine;
 public class Enemy_Damage : MonoBehaviour
 {
     public int damage;
-    public PlayerHealth playerHealth;
+    public float knockbackForce = 5f;
+
+    // Removed the playerHealth reference from Start since we'll get it from the collision
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) // Using CompareTag for better performance
+        if (collision.gameObject.CompareTag("Player"))
         {
-            // Assuming you want to knock the player back in the opposite direction of the enemy
-            Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized; // Calculate direction
+            // Get the PlayerHealth component from the player GameObject
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
 
-            // Call TakeDamage and pass the knockback direction
-            playerHealth.TakeDamage(damage, knockbackDirection);
+            if (playerHealth != null)
+            {
+                // Calculate knockback direction
+                Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized;
+
+                // Call TakeDamage on the player
+                playerHealth.TakeDamage(damage, knockbackDirection);
+            }
+            else
+            {
+                Debug.LogWarning("PlayerHealth component not found on player object!");
+            }
         }
     }
 }

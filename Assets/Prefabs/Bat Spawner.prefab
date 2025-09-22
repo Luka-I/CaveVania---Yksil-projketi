@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199c2faee85895e41936f9aa83226b41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bat: {fileID: 0}
+  Bat: {fileID: 1380357617043696677, guid: 4a2fe649a957ee44ca6a8f21e1e4780b, type: 3}
   spawnPoint: {fileID: 2357712843188134144}
 --- !u!61 &659323364316798005
 BoxCollider2D:

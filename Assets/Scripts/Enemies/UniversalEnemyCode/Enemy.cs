@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 
     public int maxHealth = 100;
     int currentHealth;
+    private bool isDead = false; // Track if the enemy is dead
 
     public float invincibilityDuration = 0.2f; // Adjust as needed
     private bool isInvincible = false;
@@ -21,13 +22,14 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isInvincible) return; // Ignore damage if invincible
+        if (isInvincible || isDead) return; // Also check if already dead
 
         currentHealth -= damage;
         StartCoroutine(InvincibilityCoroutine());
 
         if (currentHealth <= 0)
         {
+            isDead = true; // Mark as dead
             Die();
         }
     }
