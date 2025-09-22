@@ -20,6 +20,7 @@ public class PlayerCombat : MonoBehaviour
     private PlayerJump playerjump;
 
     public bool isAttacking;
+    private bool damageApplied = false; // Track if damage has been applied for current attack
 
     private void Start()
     {
@@ -39,7 +40,7 @@ public class PlayerCombat : MonoBehaviour
             Debug.LogError("playerjump script not found on the GameObject!");
         }
     }
-    // Update is called once per frame
+
     void Update()
     {
         if (Time.time >= nextAttackTime)
@@ -76,23 +77,56 @@ public class PlayerCombat : MonoBehaviour
     void GroundAttack()
     {
         isAttacking = true;
+        damageApplied = false; // Reset damage flag
         myAnimator.SetTrigger("attack");
-        ApplyDamageToEnemies();
+        // Removed ApplyDamageToEnemies() call from here
         Invoke("ResetAttackTrigger", 1f);
     }
 
     void AirAttack()
     {
+        damageApplied = false; // Reset damage flag
         myAnimator.SetTrigger("air_attack");
-        ApplyDamageToEnemies();
+        // Removed ApplyDamageToEnemies() call from here
         Invoke("ResetAttackTrigger", 0.5f);
     }
+
     void CrouchAttack()
     {
         isAttacking = true;
+        damageApplied = false; // Reset damage flag
         myAnimator.SetTrigger("crouch_attack");
-        ApplyDamageToEnemies();
+        // Removed ApplyDamageToEnemies() call from here
         Invoke("ResetAttackTrigger", 0.5f);
+    }
+
+    // Animation Event Methods - Called at specific frames in animations
+    public void OnAttackApex()
+    {
+        if (!damageApplied)
+        {
+            ApplyDamageToEnemies();
+            damageApplied = true;
+        }
+    }
+
+    // Optional: Add separate events for different attack types if needed
+    public void OnAirAttackApex()
+    {
+        if (!damageApplied)
+        {
+            ApplyDamageToEnemies();
+            damageApplied = true;
+        }
+    }
+
+    public void OnCrouchAttackApex()
+    {
+        if (!damageApplied)
+        {
+            ApplyDamageToEnemies();
+            damageApplied = true;
+        }
     }
 
     void ResetAttackTrigger()
@@ -101,6 +135,7 @@ public class PlayerCombat : MonoBehaviour
         myAnimator.ResetTrigger("air_attack");
         myAnimator.ResetTrigger("crouch_attack");
         isAttacking = false;
+        damageApplied = false; // Reset for next attack
     }
 
     private void OnDrawGizmos()
@@ -116,8 +151,7 @@ public class PlayerCombat : MonoBehaviour
                     Gizmos.DrawWireSphere(attackPoint.position, AttackRange);
                 }
             }
-
-        }        
+        }
     }
 
     void ApplyDamageToEnemies()

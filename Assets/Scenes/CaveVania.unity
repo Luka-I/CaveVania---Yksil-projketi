@@ -56513,6 +56513,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4587278426319892570, guid: ba228746d59b9ed46be0f55677cfd752, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587278426319892570, guid: ba228746d59b9ed46be0f55677cfd752, type: 3}
       propertyPath: knockbackForce
       value: 15
       objectReference: {fileID: 0}

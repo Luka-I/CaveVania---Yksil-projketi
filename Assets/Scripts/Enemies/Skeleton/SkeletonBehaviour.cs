@@ -6,7 +6,7 @@ using static UnityEngine.Rendering.DebugUI;
 public class SkeletonBehaviour : MonoBehaviour
 {
     public float speed = 2f;
-    public int damage = 1;
+    public int damage;
 
     public float chaseRange = 5f;
     public float attackRange = 1.5f;
