@@ -165,6 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myAnimator: {fileID: 6795989659887445464}
+  deathParticles: {fileID: 7019281762770235686, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
   maxHealth: 40
   invincibilityDuration: 0.2
   hasDeathAnimation: 0
@@ -181,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  playerHealth: {fileID: 0}
+  knockbackForce: 5
 --- !u!61 &2903583213263627160
 BoxCollider2D:
   m_ObjectHideFlags: 0
