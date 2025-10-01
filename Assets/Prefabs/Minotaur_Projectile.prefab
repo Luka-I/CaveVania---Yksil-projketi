@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 2815976842827781985}
   - component: {fileID: 1351590846511233847}
   - component: {fileID: 4181914070021123663}
-  - component: {fileID: 4730182235167538116}
+  - component: {fileID: -7429972163737804887}
+  - component: {fileID: 5946151706879859130}
   m_Layer: 3
   m_Name: Minotaur_Projectile
   m_TagString: Untagged
@@ -162,12 +163,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc849e0481e64b244a8703feb7f5d48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 15
   speed: 8
+  knockbackForce: 3
   lifeTime: 4
   environmentLayers:
     serializedVersion: 2
     m_Bits: 393728
---- !u!114 &4730182235167538116
+--- !u!114 &-7429972163737804887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,3 +187,15 @@ MonoBehaviour:
   maxHealth: 1
   invincibilityDuration: 0.2
   hasDeathAnimation: 0
+--- !u!114 &5946151706879859130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5231554190303140848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f7b6d889350144099465bd8fb20339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

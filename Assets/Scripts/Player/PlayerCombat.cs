@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class PlayerCombat : MonoBehaviour
 {
     public Animator myAnimator;
@@ -150,30 +149,19 @@ public class PlayerCombat : MonoBehaviour
 
     void ApplyDamageToEnemies()
     {
-        Debug.Log("ApplyDamageToEnemies called");
-
         foreach (Transform attackPoint in AttackPoints)
         {
             if (attackPoint == null) continue;
 
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, enemyLayers);
-            Debug.Log($" - Found {hitEnemies.Length} colliders in attack range");
-
             foreach (Collider2D enemy in hitEnemies)
             {
                 if (enemy != null && enemy.gameObject.activeInHierarchy)
                 {
-                    Debug.Log($" - Hit: {enemy.gameObject.name} on layer {enemy.gameObject.layer}");
-
                     Enemy enemyComponent = enemy.GetComponent<Enemy>();
                     if (enemyComponent != null)
                     {
-                        Debug.Log($" - Calling TakeDamage on {enemy.gameObject.name}");
                         enemyComponent.TakeDamage(AttackDamage);
-                    }
-                    else
-                    {
-                        Debug.Log($" - No Enemy component found on {enemy.gameObject.name}");
                     }
                 }
             }

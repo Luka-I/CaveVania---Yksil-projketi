@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class MinotaurFight : MonoBehaviour
@@ -9,7 +10,7 @@ public class MinotaurFight : MonoBehaviour
 
     [Header("Attack Settings")]
     public float attackCooldown = 2f;
-    public float knockbackForce = 5f; // Added this back
+    public float knockbackForce = 5f;
     public LayerMask playerLayer;
     private float lastAttackTime;
     private Animator animator;
@@ -17,9 +18,14 @@ public class MinotaurFight : MonoBehaviour
     [Header("Throw Attack Settings")]
     public GameObject rockProjectilePrefab;
     public Transform throwPoint;
-    public int rocksPerThrow = 5;
-    public float spreadAngle = 30f;
-    public float throwSpeed = 10f;
+    public int rocksPerThrow = 3;
+    public float spreadAngle = 20f;
+    public float throwSpeed = 8f;
+
+    [Header("Rock Group Settings")]
+    public bool destroyAllRocksWhenOneHit = true; // ADD THIS
+
+    private List<List<GameObject>> rockGroups = new List<List<GameObject>>(); // ADD THIS
 
     [System.Serializable]
     public class AttackSettings
@@ -105,7 +111,6 @@ public class MinotaurFight : MonoBehaviour
 
         Vector2 playerDirection = (player.position - throwPoint.position).normalized;
 
-        // Simple predictable pattern
         for (int i = 0; i < rocksPerThrow; i++)
         {
             float angleStep = spreadAngle / (rocksPerThrow - 1);
@@ -113,15 +118,54 @@ public class MinotaurFight : MonoBehaviour
             Vector2 throwDirection = Quaternion.Euler(0, 0, angleVariation) * playerDirection;
 
             GameObject rock = Instantiate(rockProjectilePrefab, throwPoint.position, Quaternion.identity);
-            MinotaurRock rockScript = rock.GetComponent<MinotaurRock>();
 
+            // The rock already has the RockGroup component on the prefab
+            // No need to set anything!
+
+            // Your existing setup code...
+            Enemy enemyComponent = rock.GetComponent<Enemy>();
+            if (enemyComponent != null)
+            {
+                enemyComponent.SetAsRock();
+            }
+
+            MinotaurRock rockScript = rock.GetComponent<MinotaurRock>();
             if (rockScript != null)
             {
                 rockScript.Launch(throwDirection, throwSpeed);
             }
         }
+    }
 
-        Debug.Log($"Threw {rocksPerThrow} rocks");
+    // Method to destroy entire rock group
+    public void DestroyRockGroup(List<GameObject> rockGroup)
+    {
+        if (rockGroup == null) return;
+
+        foreach (GameObject rock in rockGroup.ToArray())
+        {
+            if (rock != null)
+            {
+                Enemy enemyComponent = rock.GetComponent<Enemy>();
+                if (enemyComponent != null)
+                {
+                    // This will trigger the rock's destruction through the Enemy system
+                    enemyComponent.TakeDamage(100); // Guaranteed kill
+                }
+            }
+        }
+
+        rockGroups.Remove(rockGroup);
+    }
+
+    // Clean up empty groups
+    private void Update()
+    {
+        // Clean up every second
+        if (Time.frameCount % 60 == 0)
+        {
+            rockGroups.RemoveAll(group => group.Count == 0 || group.All(rock => rock == null));
+        }
     }
 
     private void PerformMeleeAttack(AttackSettings attack)

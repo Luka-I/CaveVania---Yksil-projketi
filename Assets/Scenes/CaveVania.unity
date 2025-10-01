@@ -57570,7 +57570,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 81.6066, y: 1.8486481, z: -10}
+  m_LocalPosition: {x: 81.606995, y: 1.8486481, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76287,18 +76287,6 @@ PrefabInstance:
       value: Rock Particle System
       objectReference: {fileID: 0}
     - target: {fileID: 5405462753591916806, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5405462753591916806, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5405462753591916806, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5405462753591916806, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 209.62
       objectReference: {fileID: 0}
@@ -76337,18 +76325,6 @@ PrefabInstance:
     - target: {fileID: 5405462753591916806, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7019281762770235686, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.41176474
-      objectReference: {fileID: 0}
-    - target: {fileID: 7019281762770235686, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.11764707
-      objectReference: {fileID: 0}
-    - target: {fileID: 7019281762770235686, guid: 1e0f6d452bdd5e245bd71cbbdf1708c4, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.7607844
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -82914,9 +82890,8 @@ MonoBehaviour:
   rockProjectilePrefab: {fileID: 5231554190303140848, guid: 77e1bb3f426672a4c9144ea4061ec142, type: 3}
   throwPoint: {fileID: 1231845106}
   rocksPerThrow: 5
-  spreadAngle: 70
+  spreadAngle: 30
   throwSpeed: 10
-  throwDamage: 5
   destroyAllRocksWhenOneHit: 1
   attacks:
   - attackName: Slash_Attack
@@ -82924,22 +82899,16 @@ MonoBehaviour:
     hitboxRange: 1.5
     hitboxOffset: {x: -2.5, y: 0.5, z: 0}
     damage: 20
-    customKnockbackForce: 5
-    gizmoColor: {r: 1, g: 0, b: 0, a: 1}
   - attackName: Thrust_Attack
     triggerRange: 3.5
     hitboxRange: 0.8
     hitboxOffset: {x: -3.2, y: -0.5, z: 0}
     damage: 30
-    customKnockbackForce: 30
-    gizmoColor: {r: 1, g: 0, b: 0, a: 1}
   - attackName: Throw_Attack
     triggerRange: 7
     hitboxRange: 0
     hitboxOffset: {x: 0, y: 0, z: 0}
     damage: 0
-    customKnockbackForce: 0
-    gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1359023225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82952,7 +82921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 851fc20e762362547a9c4cc4da5f04f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAnimator: {fileID: 0}
+  myAnimator: {fileID: 1359023221}
   deathParticles: {fileID: 0}
   maxHealth: 400
   invincibilityDuration: 0.2
