@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerCombat : MonoBehaviour
 {
     public Animator myAnimator;
@@ -20,7 +21,7 @@ public class PlayerCombat : MonoBehaviour
     private PlayerJump playerjump;
 
     public bool isAttacking;
-    private bool damageApplied = false; // Track if damage has been applied for current attack
+    private bool damageApplied = false;
 
     private void Start()
     {
@@ -47,10 +48,8 @@ public class PlayerCombat : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.S) && !isAttacking)
             {
-                // Check if the player is grounded
                 if (thePlayerJump.grounded)
                 {
-                    // Check if the player is crouching to trigger a crouch attack
                     if (playerController.IsCrouching() && Input.GetKey(KeyCode.S))
                     {
                         CrouchAttack();
@@ -77,30 +76,27 @@ public class PlayerCombat : MonoBehaviour
     void GroundAttack()
     {
         isAttacking = true;
-        damageApplied = false; // Reset damage flag
+        damageApplied = false;
         myAnimator.SetTrigger("attack");
-        // Removed ApplyDamageToEnemies() call from here
         Invoke("ResetAttackTrigger", 1f);
     }
 
     void AirAttack()
     {
-        damageApplied = false; // Reset damage flag
+        damageApplied = false;
         myAnimator.SetTrigger("air_attack");
-        // Removed ApplyDamageToEnemies() call from here
         Invoke("ResetAttackTrigger", 0.5f);
     }
 
     void CrouchAttack()
     {
         isAttacking = true;
-        damageApplied = false; // Reset damage flag
+        damageApplied = false;
         myAnimator.SetTrigger("crouch_attack");
-        // Removed ApplyDamageToEnemies() call from here
         Invoke("ResetAttackTrigger", 0.5f);
     }
 
-    // Animation Event Methods - Called at specific frames in animations
+    // Animation Event Methods
     public void OnAttackApex()
     {
         if (!damageApplied)
@@ -110,7 +106,6 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // Optional: Add separate events for different attack types if needed
     public void OnAirAttackApex()
     {
         if (!damageApplied)
@@ -135,12 +130,11 @@ public class PlayerCombat : MonoBehaviour
         myAnimator.ResetTrigger("air_attack");
         myAnimator.ResetTrigger("crouch_attack");
         isAttacking = false;
-        damageApplied = false; // Reset for next attack
+        damageApplied = false;
     }
 
     private void OnDrawGizmos()
     {
-        // Draw gizmos for each attack point
         if (AttackPoints != null)
         {
             foreach (Transform attackPoint in AttackPoints)
@@ -156,21 +150,30 @@ public class PlayerCombat : MonoBehaviour
 
     void ApplyDamageToEnemies()
     {
-        // Shared logic for applying damage
+        Debug.Log("ApplyDamageToEnemies called");
+
         foreach (Transform attackPoint in AttackPoints)
         {
             if (attackPoint == null) continue;
 
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, enemyLayers);
+            Debug.Log($" - Found {hitEnemies.Length} colliders in attack range");
+
             foreach (Collider2D enemy in hitEnemies)
             {
-                // Check if the enemy object still exists and has the Enemy component
                 if (enemy != null && enemy.gameObject.activeInHierarchy)
                 {
+                    Debug.Log($" - Hit: {enemy.gameObject.name} on layer {enemy.gameObject.layer}");
+
                     Enemy enemyComponent = enemy.GetComponent<Enemy>();
                     if (enemyComponent != null)
                     {
+                        Debug.Log($" - Calling TakeDamage on {enemy.gameObject.name}");
                         enemyComponent.TakeDamage(AttackDamage);
+                    }
+                    else
+                    {
+                        Debug.Log($" - No Enemy component found on {enemy.gameObject.name}");
                     }
                 }
             }

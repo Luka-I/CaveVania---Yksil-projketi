@@ -1,0 +1,822 @@
+fileFormatVersion: 2
+guid: 54d7672ae5c53894ebe8a265e22d7ef2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 125
+        width: 81
+        height: 68
+      alignment: 9
+      pivot: {x: 0.30378595, y: 0.5446495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e77418dfd7627347975ed8d1e46f79d
+      internalID: -1708416804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 125
+        width: 83
+        height: 76
+      alignment: 9
+      pivot: {x: 0.30170828, y: 0.57350177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6567f80d07844b2488c66455b237e77f
+      internalID: -474482323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 124
+        width: 84
+        height: 76
+      alignment: 9
+      pivot: {x: 0.30385318, y: 0.5428398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044b7ed2deeccfd4b8ae8414707db5a8
+      internalID: -447640355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 124
+        width: 82
+        height: 74
+      alignment: 9
+      pivot: {x: 0.30098632, y: 0.39158374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b07f851eee9ab42adbbfc01765addb
+      internalID: -385635223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 124
+        width: 53
+        height: 79
+      alignment: 9
+      pivot: {x: 0.52876943, y: 0.47526994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f96bf3ad00243438ca9c8fcfc3e358
+      internalID: 775694654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 124
+        width: 84
+        height: 75
+      alignment: 9
+      pivot: {x: 0.29373422, y: 0.47227782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a5a979745da643bf96d7868e41925
+      internalID: 1208320794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 124
+        width: 76
+        height: 82
+      alignment: 9
+      pivot: {x: 0.25112554, y: 0.49795887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab841bf2a8ec4e54f8b0eb2e16063b89
+      internalID: -531774262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 124
+        width: 72
+        height: 88
+      alignment: 9
+      pivot: {x: 0.3535385, y: 0.4029933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc71da47e19e8046b7005fd8e6712ed
+      internalID: 643489281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_8
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 124
+        width: 82
+        height: 80
+      alignment: 9
+      pivot: {x: 0.31016132, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e508c3c2ed64a5c4faf5c3ee63f0ace6
+      internalID: -1745788387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_9
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 124
+        width: 76
+        height: 96
+      alignment: 9
+      pivot: {x: 0.61452603, y: 0.44943604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ba4a6d0cd47104f8b2151540404ab5
+      internalID: -980353909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 124
+        width: 74
+        height: 101
+      alignment: 9
+      pivot: {x: 0.7204854, y: 0.3554337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2ff4f63df7cad40b24a907623384fb
+      internalID: 1019741253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 124
+        width: 76
+        height: 71
+      alignment: 9
+      pivot: {x: 0.330413, y: 0.4858549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb2807fd1b98e94f9782ef2754a3656
+      internalID: -1876952630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_12
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 124
+        width: 77
+        height: 85
+      alignment: 9
+      pivot: {x: 0.31957215, y: 0.41926178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b52825494144c45a25ca40da436670
+      internalID: -322751240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_13
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 124
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.30154127, y: 0.5105094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aa091e64a5c5447a09d737d8caf700
+      internalID: -1563290802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_14
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 125
+        width: 79
+        height: 78
+      alignment: 9
+      pivot: {x: 0.66014695, y: 0.56888795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52160042e9e558347bcb75bcdf4f6b8b
+      internalID: 276510217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_15
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 124
+        width: 60
+        height: 91
+      alignment: 9
+      pivot: {x: 0.41351727, y: 0.38227928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada6859fe6654364ab06475e2e0d48d4
+      internalID: 495574940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_16
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 124
+        width: 81
+        height: 75
+      alignment: 9
+      pivot: {x: 0.30781764, y: 0.47098672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eff9c78205e3db4ba55571da87bd079
+      internalID: -199736553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_17
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 124
+        width: 103
+        height: 73
+      alignment: 9
+      pivot: {x: 0.2347827, y: 0.51328164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f1f6db3bbdad846b39f4171cb2f20f
+      internalID: -556715725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_18
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 124
+        width: 69
+        height: 75
+      alignment: 9
+      pivot: {x: 0.3301896, y: 0.38617858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf0a4947f40c3848bf0d0d2cdb6b5dc
+      internalID: -1716577383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_19
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 123
+        width: 65
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5028602, y: 0.41529724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45f27bab34c1df43830d0ac9481df08
+      internalID: -773653487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_20
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 123
+        width: 65
+        height: 95
+      alignment: 9
+      pivot: {x: 0.49796423, y: 0.44575742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2721b7a7a748ed41b768103e347ff40
+      internalID: -271098974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 99
+        height: 121
+      alignment: 9
+      pivot: {x: 0.21038292, y: 0.30968648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c37b9794740de4cbbf181305385ce9
+      internalID: 1809849055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 76
+        height: 80
+      alignment: 9
+      pivot: {x: 0.30988273, y: 0.45202512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92996bc06ddbd7a4495336b7edcd70ee
+      internalID: -1026290807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2
+        width: 65
+        height: 88
+      alignment: 9
+      pivot: {x: 0.36382985, y: 0.42305812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04232776e870b9d49b1e8a827f0572ac
+      internalID: -538160652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2
+        width: 71
+        height: 71
+      alignment: 9
+      pivot: {x: 0.24879692, y: 0.54769695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348cdd75f0774654ea1c539dbf2afc17
+      internalID: 856581845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 3
+        width: 84
+        height: 53
+      alignment: 9
+      pivot: {x: 0.37421018, y: 0.69783324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fae8dab6a68f9346a3ca1223ca10446
+      internalID: 537634897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3
+        width: 90
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5426439, y: 0.41972846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cc08d03707fdc4d8225099a8147c2d
+      internalID: 1567790337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3
+        width: 43
+        height: 41
+      alignment: 9
+      pivot: {x: 0.7467637, y: 0.2632234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db95cc992fe214469ef4612fcdfbe66
+      internalID: -366500682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_28
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 3
+        width: 47
+        height: 48
+      alignment: 9
+      pivot: {x: 0.76419, y: 0.26482928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e08deccf837b75459597a5b3f2314b3
+      internalID: -1146454872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_29
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 17
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447de1c2d60c61c4e8d4786d5acb70f5
+      internalID: 807179242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaur_Boss_Castlevania_30
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 16
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76103076136665649acef99f29a0867a
+      internalID: 1446111165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minotaur_Boss_Castlevania_0: -1708416804
+      Minotaur_Boss_Castlevania_1: -474482323
+      Minotaur_Boss_Castlevania_10: 1019741253
+      Minotaur_Boss_Castlevania_11: -1876952630
+      Minotaur_Boss_Castlevania_12: -322751240
+      Minotaur_Boss_Castlevania_13: -1563290802
+      Minotaur_Boss_Castlevania_14: 276510217
+      Minotaur_Boss_Castlevania_15: 495574940
+      Minotaur_Boss_Castlevania_16: -199736553
+      Minotaur_Boss_Castlevania_17: -556715725
+      Minotaur_Boss_Castlevania_18: -1716577383
+      Minotaur_Boss_Castlevania_19: -773653487
+      Minotaur_Boss_Castlevania_2: -447640355
+      Minotaur_Boss_Castlevania_20: -271098974
+      Minotaur_Boss_Castlevania_21: 1809849055
+      Minotaur_Boss_Castlevania_22: -1026290807
+      Minotaur_Boss_Castlevania_23: -538160652
+      Minotaur_Boss_Castlevania_24: 856581845
+      Minotaur_Boss_Castlevania_25: 537634897
+      Minotaur_Boss_Castlevania_26: 1567790337
+      Minotaur_Boss_Castlevania_27: -366500682
+      Minotaur_Boss_Castlevania_28: -1146454872
+      Minotaur_Boss_Castlevania_29: 807179242
+      Minotaur_Boss_Castlevania_3: -385635223
+      Minotaur_Boss_Castlevania_30: 1446111165
+      Minotaur_Boss_Castlevania_4: 775694654
+      Minotaur_Boss_Castlevania_5: 1208320794
+      Minotaur_Boss_Castlevania_6: -531774262
+      Minotaur_Boss_Castlevania_7: 643489281
+      Minotaur_Boss_Castlevania_8: -1745788387
+      Minotaur_Boss_Castlevania_9: -980353909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

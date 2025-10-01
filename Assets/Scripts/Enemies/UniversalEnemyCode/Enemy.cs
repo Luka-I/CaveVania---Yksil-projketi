@@ -21,12 +21,22 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+    public void SetAsRock()
+    {
+        maxHealth = 1;
+        currentHealth = 1;
+        hasDeathAnimation = false;
+    }
+
     public void TakeDamage(int damage)
     {
         if (isInvincible || isDead) return;
 
         currentHealth -= damage;
         StartCoroutine(InvincibilityCoroutine());
+
+        // If you want rocks to use Enemy system, you'd need different logic
+        // But for now, let's keep rocks simple and not use Enemy script
 
         if (currentHealth <= 0)
         {
@@ -51,6 +61,30 @@ public class Enemy : MonoBehaviour
     {
         Debug.Log("Enemy died!");
 
+        // Don't run normal enemy death for rocks
+        MinotaurRock rock = GetComponent<MinotaurRock>();
+        if (rock != null)
+        {
+            Debug.Log("Enemy: Rock detected in Die(), skipping normal death");
+            return; // Exit early for rocks
+        }
+
+        // Only run this for regular enemies (not rocks)
+        MonoBehaviour[] components = GetComponents<MonoBehaviour>();
+        foreach (MonoBehaviour component in components)
+        {
+            if (component != this && component.enabled)
+            {
+                component.enabled = false;
+            }
+        }
+
+        // Also disable the hitbox specifically as backup
+        if (TryGetComponent<SkeletonBehaviour>(out SkeletonBehaviour skeleton))
+        {
+            skeleton.DisableHitbox();
+        }
+
         // Play death particles if available
         if (deathParticles != null)
         {
@@ -60,19 +94,34 @@ public class Enemy : MonoBehaviour
         if (hasDeathAnimation && myAnimator != null)
         {
             myAnimator.SetBool("dead", true);
-        }
-
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
-
-        if (!hasDeathAnimation)
-        {
-            Destroy(gameObject);
+            float deathAnimationLength = GetDeathAnimationLength();
+            Invoke("DisappearAfterDeath", deathAnimationLength);
         }
         else
         {
-            Invoke("DisappearAfterDeath", 1.0f);
+            Destroy(gameObject);
         }
+
+        GetComponent<Collider2D>().enabled = false;
+    }
+
+    float GetDeathAnimationLength()
+    {
+        // Get the current AnimatorController
+        RuntimeAnimatorController ac = myAnimator.runtimeAnimatorController;
+
+        // Loop through all animation clips to find the death animation
+        foreach (AnimationClip clip in ac.animationClips)
+        {
+            if (clip.name.ToLower().Contains("death") || clip.name.ToLower().Contains("dead"))
+            {
+                return clip.length;
+            }
+        }
+
+        // Fallback: if no death animation found, use 2 seconds
+        Debug.LogWarning("Death animation not found, using default 2 second duration");
+        return 2f;
     }
 
     void PlayDeathParticles()
