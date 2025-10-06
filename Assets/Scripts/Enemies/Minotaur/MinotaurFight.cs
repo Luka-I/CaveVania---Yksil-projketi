@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class MinotaurFight : MonoBehaviour
@@ -22,11 +21,6 @@ public class MinotaurFight : MonoBehaviour
     public float spreadAngle = 20f;
     public float throwSpeed = 8f;
 
-    [Header("Rock Group Settings")]
-    public bool destroyAllRocksWhenOneHit = true; // ADD THIS
-
-    private List<List<GameObject>> rockGroups = new List<List<GameObject>>(); // ADD THIS
-
     [System.Serializable]
     public class AttackSettings
     {
@@ -38,6 +32,10 @@ public class MinotaurFight : MonoBehaviour
     }
 
     public List<AttackSettings> attacks;
+
+    [Header("Attack Cooldowns")]
+    public float throwAttackCooldown = 5f;
+    private float lastThrowTime = 0f;
 
     void Start()
     {
@@ -72,6 +70,12 @@ public class MinotaurFight : MonoBehaviour
             {
                 animator.SetTrigger(chosenAttack);
                 lastAttackTime = Time.time;
+
+                // Start throw cooldown if throw was chosen
+                if (chosenAttack == "Throw_Attack")
+                {
+                    lastThrowTime = Time.time;
+                }
             }
         }
     }
@@ -83,8 +87,35 @@ public class MinotaurFight : MonoBehaviour
 
         if (availableAttacks.Count > 0)
         {
-            int randomIndex = Random.Range(0, availableAttacks.Count);
-            return availableAttacks[randomIndex].attackName;
+            // NEW: Filter out throw attack if it's on cooldown
+            List<AttackSettings> validAttacks = new List<AttackSettings>();
+
+            foreach (var attack in availableAttacks)
+            {
+                if (attack.attackName == "Throw_Attack")
+                {
+                    // Only include throw attack if it's off cooldown
+                    if (!IsThrowOnCooldown())
+                    {
+                        validAttacks.Add(attack);
+                    }
+                }
+                else
+                {
+                    // Always include melee attacks
+                    validAttacks.Add(attack);
+                }
+            }
+
+            // If we filtered out all attacks (only throw was available but on cooldown), 
+            // use the original available attacks as fallback
+            if (validAttacks.Count == 0)
+            {
+                validAttacks = availableAttacks;
+            }
+
+            int randomIndex = Random.Range(0, validAttacks.Count);
+            return validAttacks[randomIndex].attackName;
         }
         return null;
     }
@@ -107,7 +138,11 @@ public class MinotaurFight : MonoBehaviour
 
     private void PerformThrowAttack()
     {
-        if (rockProjectilePrefab == null || throwPoint == null) return;
+        if (rockProjectilePrefab == null || throwPoint == null)
+        {
+            Debug.LogError("Missing rock prefab or throw point!");
+            return;
+        }
 
         Vector2 playerDirection = (player.position - throwPoint.position).normalized;
 
@@ -118,54 +153,43 @@ public class MinotaurFight : MonoBehaviour
             Vector2 throwDirection = Quaternion.Euler(0, 0, angleVariation) * playerDirection;
 
             GameObject rock = Instantiate(rockProjectilePrefab, throwPoint.position, Quaternion.identity);
-
-            // The rock already has the RockGroup component on the prefab
-            // No need to set anything!
-
-            // Your existing setup code...
-            Enemy enemyComponent = rock.GetComponent<Enemy>();
-            if (enemyComponent != null)
-            {
-                enemyComponent.SetAsRock();
-            }
-
             MinotaurRock rockScript = rock.GetComponent<MinotaurRock>();
+
             if (rockScript != null)
             {
                 rockScript.Launch(throwDirection, throwSpeed);
             }
-        }
-    }
-
-    // Method to destroy entire rock group
-    public void DestroyRockGroup(List<GameObject> rockGroup)
-    {
-        if (rockGroup == null) return;
-
-        foreach (GameObject rock in rockGroup.ToArray())
-        {
-            if (rock != null)
+            else
             {
-                Enemy enemyComponent = rock.GetComponent<Enemy>();
-                if (enemyComponent != null)
-                {
-                    // This will trigger the rock's destruction through the Enemy system
-                    enemyComponent.TakeDamage(100); // Guaranteed kill
-                }
+                Debug.LogError("Rock prefab missing MinotaurRock script!");
             }
         }
-
-        rockGroups.Remove(rockGroup);
     }
 
-    // Clean up empty groups
-    private void Update()
+    public bool IsThrowOnCooldown()
     {
-        // Clean up every second
-        if (Time.frameCount % 60 == 0)
+        return Time.time < lastThrowTime + throwAttackCooldown;
+    }
+
+    // NEW: Public method to get preferred attack range
+    public float GetPreferredAttackRange()
+    {
+        // If throw is on cooldown, prefer melee range
+        if (IsThrowOnCooldown())
         {
-            rockGroups.RemoveAll(group => group.Count == 0 || group.All(rock => rock == null));
+            return 2f; // Melee range
         }
+
+        // Otherwise, use the maximum range of any available attack
+        float maxRange = 0f;
+        foreach (var attack in attacks)
+        {
+            if (attack.triggerRange > maxRange)
+            {
+                maxRange = attack.triggerRange;
+            }
+        }
+        return maxRange;
     }
 
     private void PerformMeleeAttack(AttackSettings attack)

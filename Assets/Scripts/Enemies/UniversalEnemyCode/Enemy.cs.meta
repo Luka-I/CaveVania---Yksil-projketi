@@ -3,7 +3,10 @@ guid: 851fc20e762362547a9c4cc4da5f04f9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - myAnimator: {instanceID: 0}
+  - deathParticles: {instanceID: 0}
+  - hitParticles: {fileID: 3145855651477613019, guid: 25f759e252e92a54585362590361a0b0, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

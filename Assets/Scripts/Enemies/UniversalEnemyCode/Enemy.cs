@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public Animator myAnimator;
     public ParticleSystem deathParticles;
+    public ParticleSystem hitParticles; // NEW: Particle effect for when hit but not killed
 
     public int maxHealth = 100;
     int currentHealth;
@@ -16,6 +17,12 @@ public class Enemy : MonoBehaviour
 
     public bool hasDeathAnimation = false;
 
+    // NEW: Flash effect variables
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
+    public float flashDuration = 0.1f;
+    public Color flashColor = Color.red;
+
     // NEW: Rock group system
     private List<GameObject> rockGroup;
     private MinotaurFight minotaurFight;
@@ -23,6 +30,13 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+
+        // NEW: Get SpriteRenderer for flash effect
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color;
+        }
     }
 
     // NEW: Set rock group reference
@@ -47,6 +61,13 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
         StartCoroutine(InvincibilityCoroutine());
 
+        // NEW: Flash red and play hit particles when damaged but not killed
+        if (currentHealth > 0)
+        {
+            StartCoroutine(FlashRed());
+            PlayHitParticles();
+        }
+
         // Handle rock destruction - check if it has RockGroup component
         RockGroup rockGroup = GetComponent<RockGroup>();
         if (rockGroup != null && currentHealth <= 0)
@@ -59,6 +80,28 @@ public class Enemy : MonoBehaviour
         {
             isDead = true;
             Die();
+        }
+    }
+
+    // NEW: Coroutine to flash the enemy red when hit
+    private IEnumerator FlashRed()
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            spriteRenderer.color = originalColor;
+        }
+    }
+
+    // NEW: Play hit particles when damaged but not killed
+    void PlayHitParticles()
+    {
+        if (hitParticles != null)
+        {
+            ParticleSystem particles = Instantiate(hitParticles, transform.position, Quaternion.identity);
+            particles.Play();
+            Destroy(particles.gameObject, particles.main.duration);
         }
     }
 
