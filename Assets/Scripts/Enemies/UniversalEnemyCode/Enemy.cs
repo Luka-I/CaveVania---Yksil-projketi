@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public Animator myAnimator;
     public ParticleSystem deathParticles;
-    public ParticleSystem hitParticles; // NEW: Particle effect for when hit but not killed
+    public ParticleSystem hitParticles;
 
     public int maxHealth = 100;
     int currentHealth;
@@ -17,13 +17,16 @@ public class Enemy : MonoBehaviour
 
     public bool hasDeathAnimation = false;
 
-    // NEW: Flash effect variables
+    // NEW: Rock platform reference
+    public GameObject rockPlatform; // Assign the rock platform that should be enabled/disabled
+
+    // Flash effect variables
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
     public float flashDuration = 0.1f;
     public Color flashColor = Color.red;
 
-    // NEW: Rock group system
+    // Rock group system
     private List<GameObject> rockGroup;
     private MinotaurFight minotaurFight;
 
@@ -31,11 +34,17 @@ public class Enemy : MonoBehaviour
     {
         currentHealth = maxHealth;
 
-        // NEW: Get SpriteRenderer for flash effect
+        // Get SpriteRenderer for flash effect
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
         {
             originalColor = spriteRenderer.color;
+        }
+
+        // NEW: Disable the rock platform at start
+        if (rockPlatform != null)
+        {
+            rockPlatform.SetActive(false);
         }
     }
 
@@ -61,7 +70,7 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
         StartCoroutine(InvincibilityCoroutine());
 
-        // NEW: Flash red and play hit particles when damaged but not killed
+        // Flash red and play hit particles when damaged but not killed
         if (currentHealth > 0)
         {
             StartCoroutine(FlashRed());
@@ -83,7 +92,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // NEW: Coroutine to flash the enemy red when hit
+    // NEW: Enable rock platform when enemy dies
+    private void EnableRockPlatform()
+    {
+        if (rockPlatform != null)
+        {
+            rockPlatform.SetActive(true);
+            Debug.Log("Rock platform enabled!");
+        }
+    }
+
+    // Coroutine to flash the enemy red when hit
     private IEnumerator FlashRed()
     {
         if (spriteRenderer != null)
@@ -94,7 +113,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // NEW: Play hit particles when damaged but not killed
+    // Play hit particles when damaged but not killed
     void PlayHitParticles()
     {
         if (hitParticles != null)
@@ -152,12 +171,17 @@ public class Enemy : MonoBehaviour
 
     void DisappearAfterDeath()
     {
+        // NEW: Enable rock platform before destroying
+        EnableRockPlatform();
         Destroy(gameObject);
     }
 
     void Die()
     {
         Debug.Log("Enemy died!");
+
+        // NEW: Enable rock platform when enemy dies
+        EnableRockPlatform();
 
         // Don't run normal enemy death for rocks
         if (GetComponent<MinotaurRock>() != null)
@@ -196,6 +220,8 @@ public class Enemy : MonoBehaviour
         }
         else
         {
+            // NEW: Enable rock platform before immediate destruction
+            EnableRockPlatform();
             Destroy(gameObject);
         }
 
